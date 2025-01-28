@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0rem;
+    box-sizing: border-box;
+    font-family:"Poppins" ,serif;
+    text-decoration: none;
+}
+:root{
+    --colour-one:#000000;
+    --baground-color:#FE9790;
+    --colour-two:#FFFFFF;
+    --colour-three:#929292;
+    --baground-colour:#FFFBF8;
+    --input-baground:#FFF8F8;
+    --hover-colour:#ff6f6f;
+}
+
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+   
+}
+h6{
+    font-size: 12px;
+    font:normal;
+    padding:0.8rem 0;
+    
+}
+a{
+    color: var(--colour-one);
+}
+p{
+    font-size: 21px;
+}
+
+.navcont{
+    display: flex;
+}
+li{
+    padding: 2rem;
+    list-style: none;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+}
+.hover{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+
+}
+.element{
+    background-color: var(--baground-color);
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem; 
+}
+.element:link{
+    color: var(--colour-one);
+}
+.element:hover{
+    color: var(--colour-two);
+    transition:0.5s ease-in-out ;
+    font-size: 26px;
+    background-color: var(--hover-colour);
+}
+
+.herosection{
+        background-image: url('asests/Group\ 1192.svg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+       }
+
+.mainview{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.1rem;
+   
+    
+}  
+.txt{
+    max-width: 30rem;
+    padding-left: 5rem;
+}     
+
+.links{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 1rem;
+    padding: 1rem;
+   
+    
+}     
+
+.link-one,.link-two{
+    background-color: var(--colour-one);
+    color: var(--colour-two);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0.1rem 1rem;
+    border-radius: 0.5rem;
+    
+}
+
+.head{
+    text-align: center;
+    padding: 2rem;
+}
+
+.sectwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin:4rem;
+    gap: 5rem;
+}
+
+.two-one{
+    border: 1px solid var(--colour-three);
+    border-radius: 20px;
+
+    max-width: 25rem;
+    max-height: 20rem;
+  
+    padding: 2rem 3rem;
+
+}
+
+.secthree{
+    background-color:var(--baground-colour) ;
+    margin:0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+.gimage{
+    padding: 2rem 0rem;
+}
+.secfour{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: 2rem 0;
+    margin: 0 4rem;
+  
+}
+.secfour h3{
+    padding: 3rem 0rem;
+}
+
+.secfive{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 5rem;
+    /* padding: 0rem; */
+    /* text-align: center  ; */
+    margin: 4rem 4rem 0 4rem;
+}
+
+.five-one{
+    border: 1px solid var(--colour-three);
+    border-radius: 20px;
+    max-width: 22.5rem;
+    max-height: 50rem;
+    padding-top: 0;
+    padding:0  3rem;
+
+}
+
+
+
+.lnk{
+    color: var(--colour-one);
+    border: 1px solid var(--colour-one);
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    
+}
+
+.center{
+    text-align: center;
+    padding:0rem 0rem 3rem 0rem;
+
+}
+.mid{
+    text-align: center;
+    padding: 2rem;
+}
+
+.secsix{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.secseven{
+    background-image: url('asests/img.svg');
+    background-repeat:no-repeat;
+    background-attachment:local;
+    background-position: center;
+
+margin: 0 4rem;
+   }
+
+
+   .seven{
+    text-align: center;
+   }
+
+   .email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 4rem;
+   
+  }
+  
+  .email-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    flex: 1;
+    border-radius: 4px;
+    background-color: var(--input-baground);
+    max-width: 20rem;
+  }
+  
+  .email-input::placeholder {
+    color: var(--colour-one);
+   
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--colour-two);
+    background-color: var(--baground-color);
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button:hover {
+    background-color: var(--hover-colour); 
+  }
+
+  .seceight{
+    display: flex;
+    justify-content: space-evenly;
+    margin:4rem 0 0 0 ;
+    padding: 0;
+    
+  } 
+  .footer{
+    text-align: center;
+    margin: 0 4rem;
+    padding: 2rem;
+  }
